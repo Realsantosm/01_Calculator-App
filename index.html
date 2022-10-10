@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knoobs | Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-600">
+    <div class="full bg-red-600 m-8 rounded ">
+        <div class="h-[400px] bg-slate-600 flex flex-col justify-center items-center rounded">
+           <div class="mt-[6px]">
+            <label for="firstNum" class="m-[4px]">Enter the first Digit : </label>
+            <input type="text" id="firstNum" required Number placeholder="Enter the first number.">
+           </div>
+           <div class="mt-[6px]">
+            <label for="secondNum" class="m-[4px]">Enter the second Digit : </label>
+            <input type="text" id="secondNum" placeholder="Enter the second number.">
+           </div>
+           <div class="mt-[6px]">
+            <label for="secondNum" class="m-[4px]">Results : </label>
+            <input type="text" name="" id="output">
+           </div>
+        </div>
+        <div>
+            <input type="button" id="plus" class="p-4 bg-yellow-600 rounded m-8 border hover:bg-gray-600 hover:text-white" value="+" />
+            <input type="button" id="minus" class="p-4 bg-yellow-600 rounded m-8 border hover:bg-gray-600 hover:text-white" value="-" />
+            <input type="button" id="mul" class="p-4 bg-yellow-600 rounded m-8 border hover:bg-gray-600 hover:text-white" value="*" />
+            <input type="button" id="div" class="p-4 bg-yellow-600 rounded m-8 border hover:bg-gray-600 hover:text-white" value="/" />
+            <input type="button" id="prcntge" class="p-4 bg-yellow-600 rounded m-8 border hover:bg-gray-600 hover:text-white" value="%" />
+        </div>
+    </div>
+    
+</body>
+</html>
